@@ -1,6 +1,5 @@
 // This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
 
-import { Invoice } from "./definitions";
 
 // https://nextjs.org/learn/dashboard-app/fetching-data
 const users = [
@@ -51,7 +50,7 @@ const customers = [
   },
 ];
 
-const invoices: Invoice[] = [
+const invoices = [
   {
     customer_id: customers[0].id,
     amount: 15795,
@@ -147,4 +146,5 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-export { users, customers, invoices, revenue };
+export { customers, invoices, revenue, users };
+
